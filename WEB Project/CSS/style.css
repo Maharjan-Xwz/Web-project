@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+nav{/*used flex box*/
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 10%;
+   padding-right: 10%;
+   padding-top: 15px;
+   padding-bottom: 20px;
+   height: 25px;
+   background-color: black;
+}
+.logo a{
+    color: rgb(255, 255, 255);
+    font-weight: 800px;
+    font-size: 33px;
+    text-transform: uppercase; /*converting text into upper*/
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+
+li a{
+    color: white;
+}
+
+.navright{
+    border-color: 200px solid black;
+}

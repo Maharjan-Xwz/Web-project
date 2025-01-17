@@ -1,0 +1,483 @@
+section{
+    padding: 90px 14% 70px;
+}
+.home{
+    padding: 0;
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background-image: url(/Image/watches\ show\ 1\ edit.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text{
+    padding-top:60px;
+    color: white;
+}
+
+.home-text h3{
+    font-size: 89px;
+    margin-bottom: 20px;
+    margin:0 0 ;
+}
+
+.home-text p{
+    padding: 0px 15px 15px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.nav_shop{
+    display: inline-block;
+    padding: 15px 30px;
+    margin-left: 15px;
+    color: white;
+    border: 2px solid white;
+    transition: all .6s;
+}
+
+.nav_shop:hover{
+    background-color: rgb(130, 131, 133);
+}
+
+.brief{
+    padding: 0px;
+    text-align: center;
+    background: #fff;
+}
+
+.brief h2{
+    font-size: 68px;
+    margin-bottom: 10px;
+}
+
+.brief .brief-list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;   
+}
+
+.brief .brief-list h3 {
+    font-size: 40px;
+    padding-bottom: 11px;
+}
+
+.brief .brief-list p{
+    font-size: 18px;
+
+}
+
+
+.brief .list{
+
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+}
+
+.wow{
+    background-image: url(/Image/holding\ watch.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100dvi; /*what is dvi?*/ 
+    padding-left: 70px;
+
+}
+.wow-text{
+    text-align: center;
+    padding: 80px 0px 10px;
+    font-size: 40px;
+}
+
+ .wow-text h1{
+    transition:all 0.3s ease;
+ }
+ 
+ .wow-text h1:hover{
+    color: black;
+    
+ }
+
+.top h2{
+    padding: 0px 0px 15px 9px;
+    text-transform: capitalize;
+}
+ /*brands*/
+ .brand{
+    background: black;
+    border: 4px solid red;
+ }
+
+
+ .main_brand{
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* align the content and item to center of main axis*/
+    align-content: center;
+    gap:10px;
+
+ }
+
+ .brand img{
+    width: 100%;
+    height: 50%;
+ }
+
+/*product u may like pic*/
+ .row-img a img{
+    width: 100%;
+
+}
+
+.product-text h2{
+    font-weight: 700px;
+}
+
+.product-content{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 64px; 
+}
+
+.row-img{ /*instagram logo*/
+    overflow: hidden;
+}
+
+.row-img img{
+    display: block;
+    width: 100%;
+    transition:ease-in;
+    cursor: pointer;
+}
+/*needs editing*/
+row-img:hover{
+    transform: scale(1.1);
+}
+.stars a{
+    color: rgb(207, 211, 6);
+}
+
+.row-in{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.row-left a{
+    font-size: 11px;
+    font-weight: bolder;
+}
+
+.row-right h6{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.view{
+    text-align: center;
+    margin-top: 4rem;
+
+}
+.view2 {
+    display: flex;
+    padding: 14px 42px;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 30px;
+    transition: all .6s;
+}
+
+.newsletter-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 28px;
+    background-color: black;
+    padding: 60px 70px;
+    
+}
+.newsletter-text h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+.newsletter-text p{
+    color: white;
+    font-size: 19px;
+}
+
+.newsletter-content form{
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    gap: 16px;
+}
+
+.newsletter-content form input:first-child{
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: honeydew;
+    border-radius: 5px;
+
+}
+
+.newsletter-content form input:last-child{
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/*About us*/
+.about_us{
+    padding: 2rem 10%;
+  }
+
+  #about {
+    text-align: center;
+  }
+
+  #about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  #about p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .team-member {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 200px;
+    text-align: center;
+  }
+
+  .team-member img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+  .team-member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .team-member p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .team-member a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+  }
+
+                                /*###########################SHOP###########################*/
+  
+                                .collections {
+                                    flex-wrap: wrap;
+                                    padding: 3em 2em;
+                                    text-align: center;
+                                    background: #fff;
+                                }
+                        
+                                .collections h2 {
+                                    font-size: 36px;
+                                    margin-bottom: 1em;
+                                }
+                        
+                                .collections .gallery {
+                                    display: grid; 
+                                    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+                                    gap: 1.5em; 
+                                    margin-top: 2em;
+                                }
+                        
+                                .collections .gallery img {
+                                    width: 100%;
+                                    height: auto;
+                                    border-radius: 0px;
+                                    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1);
+                                    transition: transform 0.3s;
+                                }
+                        
+                                .collections .gallery img:hover {
+                                    transform: scale(1.05);
+                                }
+                        
+                                .collections .gallery .item {
+                                    text-align: center;
+                                    width: 100%;
+                                    height: 400px;
+                                }
+                        
+                                .collections .gallery .item h3 {
+                                    font-size: 18px;
+                                    margin: 0.5em 0;
+                                }
+
+
+
+
+                                        /*------------contact------------*/
+
+                                        .contact_main {
+                                            margin: 0;
+                                            padding: 0;
+                                            background-color: #f9f9f9;
+                                            color: #333;
+                                        }
+                                
+                                        .contact_header {
+                                            background: #333;
+                                            color: white;
+                                            padding: 1rem 0;
+                                            text-align: center;
+                                        }
+                                
+                                        .contact_header h1 {
+                                            margin: 0;
+                                            font-size: 2rem;
+                                        }
+                                
+                                        .contact_box {
+                                            max-width: 600px;
+                                            margin: 20px auto;
+                                            padding: 20px;
+                                            background: white;
+                                            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                                        }
+                                
+                                        form {
+                                            display: flex;
+                                            flex-direction: column;
+                                        }
+                                
+                                        label {
+                                            margin-bottom: 5px;
+                                            font-weight: bold;
+                                        }
+                                
+                                        input, textarea, .contact_button {
+                                            margin-bottom: 15px;
+                                            padding: 10px;
+                                            border: 1px solid #ccc;
+                                            border-radius: 5px;
+                                            font-size: 1rem;
+                                        }
+                                
+                                        .contact_button {
+                                            background-color: #333;
+                                            color: white;
+                                            cursor: pointer;
+                                            transition: background-color 0.3s ease;
+                                        }
+                                
+                                        .contact_button:hover {
+                                            background-color: #555;
+                                        }
+                                
+                                        .message {
+                                            margin-top: 20px;
+                                            padding: 10px;
+                                            border-radius: 5px;
+                                            display: none;
+                                        }
+                                
+                                        .message.success {
+                                            background-color: #d4edda;
+                                            color: #155724;
+                                            border: 1px solid #c3e6cb;
+                                        }
+                                
+                                        .message.error {
+                                            background-color: #f8d7da;
+                                            color: #721c24;
+                                            border: 1px solid #f5c6cb;
+                                        }
+
+
+
+                                        /*#############--CV--##########33*/
+
+                                        .welcome {
+                                            color: white;
+                                            padding: 1rem 0;
+                                            text-align: center;
+                                        }
+                                        img{
+                                            border-radius: 30px;
+                                        }
+                                        .Cv{
+                                            max-width: 800px;
+                                            margin: 20px auto;
+                                            padding: 20px;
+                                            background: white;
+                                            border-radius: 5px;
+                                        }
+                                        h1, h2 {
+                                            color: #000000;
+                                        }
+                                        .download-cv {
+                                            display: block;
+                                            margin: 20px 0;
+                                            text-align: center;
+                                        }
+                                        .download-cv a {
+                                            text-decoration: none;
+                                            background: #007BFF;
+                                            color: white;
+                                            padding: 10px 20px;
+                                            border-radius: 5px;
+                                        }
+                                        .download-cv a:hover {
+                                            background: #0056b3;
+                                        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------footer*--------------------------*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+
